@@ -10,6 +10,11 @@ function Contact() {
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        if (!fullName || !email) {
+            alert('Please enter your name and email address.');
+            return;
+        }
     
         const emailParams = {
             subject: emailSubject,
