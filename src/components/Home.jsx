@@ -9,10 +9,13 @@ function Home() {
     const intervalId = setInterval(() => {
       setText((prevText) => {
         if (prevText === "Programmer") {
-          return "Web Developer";
-        } else if (prevText === "Web Developer") {
+          return "MERN Stack Developer";
+        } else if (prevText === "MERN Stack Developer") {
           return "Frontend Developer";
-        } else {
+        }
+        else if (prevText === "Frontend Developer") {
+          return "Backend Developer";
+        }else {
           return "Programmer";
         }
       });
@@ -34,8 +37,8 @@ function Home() {
                     <p>As an aspiring developer with a strong passion for coding and technology, I am committed to launch a carrer in the field of Web Development. Proficient in Fontend Web Development, Python, C, C++, Data Structures and Algorithms.</p>
 
                     <div className="btn-box">
-                        <a href="" className="btn">Hire Me</a>
-                        <a href="" className="btn">Resume</a>
+                        <a href="mailto:avijithira14@gmail.com?subject=Resume" className="btn">Message Me</a>
+                        <a href="https://drive.google.com/file/d/1SfdkFhLny5HgOh0odtjLmZ-ejuIhGjMt/view?usp=drivesdk" className="btn" target="_blank">Resume</a>
                     </div>
                 </div>
 

@@ -111,7 +111,8 @@ section {
     position: relative;
     /* width: 32.8rem; */
     /* width: 37.8rem; */
-    width: 38.8rem;
+    /* width: 38.8rem; */
+    width: 43.8rem;
     margin: 10px 0;
     overflow: hidden;
 }
@@ -130,7 +131,7 @@ section {
     background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
 
-    background-position: -33rem 0;
+    background-position: -35.5rem 0;
 
     animation-delay: 2s;
 }

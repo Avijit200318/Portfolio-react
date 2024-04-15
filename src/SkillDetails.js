@@ -5,11 +5,11 @@ const skillsDetails = [
     },
     {
         heading: "CSS",
-        headingPercent: 70,
+        headingPercent: 75,
     },
     {
         heading: "Java Script",
-        headingPercent: 65,
+        headingPercent: 70,
     },
     {
         heading: "Python",
@@ -17,8 +17,16 @@ const skillsDetails = [
     },
     {
         heading: "C++",
+        headingPercent: 75,
+    },
+    {
+        heading: "Mongodb",
         headingPercent: 70,
     },
+    {
+        heading: "Redux",
+        headingPercent: 60,
+    }
 ]
 
 const skillsDetailsTwo = [
@@ -28,19 +36,27 @@ const skillsDetailsTwo = [
     },
     {
         heading: "Tailwind CSS",
-        headingPercent: 70,
-    },
-    {
-        heading: "Bootstrap",
         headingPercent: 75,
     },
     {
-        heading: "React Js",
+        heading: "Bootstrap",
         headingPercent: 70,
+    },
+    {
+        heading: "React Js",
+        headingPercent: 75,
     },
     {
         heading: "Node Js",
         headingPercent: 70,
+    },
+    {
+        heading: "Express Js",
+        headingPercent: 70,
+    },
+    {
+        heading: "Git",
+        headingPercent: 50,
     }
 ]
 

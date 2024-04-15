@@ -11,8 +11,12 @@ function About() {
                 </div>
 
                 <div className="about-content">
-                    <h3>Fontend Developer</h3>
-                    <p>Currently persuing B.Tech IT at University of Calcutta. As an aspiring developer with a strong passion for coding and technology, I am committed to launch a carrer in the field of Web Development. Proficient in Fontend Web Development, Python, C, C++, Data Structures and Algorithms.</p>
+                    <h3>MERN Stack Developer</h3>
+                    <p>Passionate aspiring developer dedicated to launching a dynamic career in Web Development. Proficient in
+                        MERN Stack Development, Frontend Web Development, Python, C++, Data Structures, Algorithms, Node.js,
+                        and React.js. With a keen interest in leveraging cutting-edge technologies to create innovative solutions,
+                        committed to continuous learning and contributing positively to the ever-evolving landscape of technology.
+                    </p>
                 </div>
 
                 <div className="btn-box btns center mx">

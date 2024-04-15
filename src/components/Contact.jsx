@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
 
 function Contact() {
     const [fullName, setFullName] = useState("");
@@ -8,50 +7,12 @@ function Contact() {
     const [emailSubject, setEmailSubject] = useState("");
     const [message, setMessage] = useState("");
 
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        if (!fullName || !email) {
-            alert('Please enter your name and email address.');
-            return;
-        }
-    
-        const emailParams = {
-            subject: emailSubject,
-            from_name: fullName,
-            reply_to: email, // Set reply_to to the sender's email address
-            mobile_number: mobileNumber,
-            message: message
-        };
-    
-        emailjs.send('service_q92dj9a', 'template_8rr8n8j', emailParams, '64_U7aVeIiSuk7m3t')
-            .then((response) => {
-                setFullName('');
-                setEmail('');
-                setMobileNumber('');
-                setEmailSubject('');
-                setMessage('');
-                alert('Email sent successfully:', response);
-                // You can add a success message or redirect the user to a thank you page here.
-            })
-            .catch((error) => {
-                setFullName('');
-                setEmail('');
-                setMobileNumber('');
-                setEmailSubject('');
-                setMessage('');
-                alert.error('Email failed to send:', error);
-                // Handle email sending failure, show an error message to the user, etc.
-            });
-    };
-    
-
     return (
         <>
             <section className="contact" id="contact">
                 <h2 className="heading">Contact <span>Me</span></h2>
 
-                <form onSubmit={sendEmail}>
+                <form>
                     <div className="input-box">
                         <div className="input-field">
                             <input type="text" placeholder="Full Name" value={fullName} onChange={(e) => setFullName(e.target.value)} required />
@@ -82,7 +43,7 @@ function Contact() {
                     </div>
 
                     <div className="btn-box btn center mx">
-                        <a className="submitBtn" onClick={sendEmail}>
+                        <a href={`mailto:avijithira14@gmail.com?subject=Regarding ${emailSubject}&body=${message}`} className="submitBtn">
                             <span></span>
                             <span></span>
                             <span></span>
