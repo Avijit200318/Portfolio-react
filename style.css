@@ -611,7 +611,7 @@ span {
     justify-content: center;
     flex-wrap: wrap;
     border: 2px solid var(--main-color);
-    padding: 20px 0;
+    padding: 20px 7rem;
     margin: 50px 0;
     border-radius: 5px;
 }
@@ -630,14 +630,14 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 32rem;
+    height: 30rem;
     text-decoration: none;
     color: var(--text-color);
 }
 
 .card img {
     width: 20rem;
-    height: 15rem;
+    height: 10rem;
     border: 1px solid var(--main-color);
 }
 
@@ -1107,7 +1107,7 @@ a.submitBtn span:nth-child(4) {
 
     .card img {
         width: 24rem;
-        height: 17rem;
+        height: 14rem;
     }
 }
 
