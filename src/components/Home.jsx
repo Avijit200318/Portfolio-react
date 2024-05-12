@@ -38,7 +38,7 @@ function Home() {
 
                     <div className="btn-box">
                         <a href="mailto:avijithira14@gmail.com?subject=Resume" className="btn">Message Me</a>
-                        <a href="https://drive.google.com/file/d/1SfdkFhLny5HgOh0odtjLmZ-ejuIhGjMt/view?usp=drivesdk" className="btn" target="_blank">Resume</a>
+                        <a href="https://www.canva.com/design/DAFw-6ldT40/Uh4waKDdIefw0pMza-z_2w/edit" className="btn" target="_blank">Resume</a>
                     </div>
                 </div>
 
