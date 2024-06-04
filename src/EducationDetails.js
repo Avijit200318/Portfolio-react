@@ -24,13 +24,18 @@ const ExperienceDetails = [
     },
     {
         year: "10/2023 - 11/2023",
-        heading: "Web Developement Intern ",
+        heading: "VaultofCode Web Developement Intern ",
         info: "Work as a Frontend Web Developer - Learn about Html, Css, Javascript etc. And completed many tasks like debuging code, Website Design, Develope website etc."
     },
     {
         year: "02/2024 - 04/2024",
         heading: "EY and Edunet Full Stack Web Development Intern",
         info: "Learn about Django Framework and developed a music web application using Django, html, bootstrap etc."
+    },
+    {
+        year: "05/2024 - 06/2024",
+        heading: "The Sparks Foundation Web Development Intern",
+        info: "Develope a realworld Donating website using razorpay, which also generate invoice of the payment."
     }
 ]
 

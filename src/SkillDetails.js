@@ -21,19 +21,15 @@ const skillsDetails = [
     },
     {
         heading: "Mongodb",
-        headingPercent: 70,
+        headingPercent: 60,
     },
     {
         heading: "Redux",
-        headingPercent: 60,
+        headingPercent: 50,
     }
 ]
 
 const skillsDetailsTwo = [
-    {
-        heading: "Frontend Web Development",
-        headingPercent: 70,
-    },
     {
         heading: "Tailwind CSS",
         headingPercent: 75,
@@ -44,7 +40,7 @@ const skillsDetailsTwo = [
     },
     {
         heading: "React Js",
-        headingPercent: 75,
+        headingPercent: 80,
     },
     {
         heading: "Node Js",
@@ -55,7 +51,11 @@ const skillsDetailsTwo = [
         headingPercent: 70,
     },
     {
-        heading: "Git",
+        heading: "Firebase",
+        headingPercent: 60,
+    },
+    {
+        heading: "Git & Github",
         headingPercent: 50,
     }
 ]
