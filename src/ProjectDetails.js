@@ -24,7 +24,7 @@ const projectDetails = [
         img: picture2,
         heading: "Instagram Clone",
         info: "Created an Instagram Clone website using Ejs, Tailwind Css, Node Js, Mongodb, Express Js",
-        link: "https://avijitinstagramclone.onrender.com/profile",
+        link: "https://avijitinteclone.onrender.com",
     },
     {
         img: picture3,
