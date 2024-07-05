@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Portfolio-react/static/js/main.c2b90764.js",
+    "main.js": "/Portfolio-react/static/js/main.1d147731.js",
     "static/media/me.png": "/Portfolio-react/static/media/me.0109861566821962bf95.png",
     "static/media/pinterst.jpg": "/Portfolio-react/static/media/pinterst.50a1b7b3103717a1ab07.jpg",
     "static/media/instagram.jpg": "/Portfolio-react/static/media/instagram.d0e9cf23fd2ecffe10e1.jpg",
     "static/media/real state.jpg": "/Portfolio-react/static/media/real state.14184f26fc15f6465846.jpg",
     "static/media/food website.jpg": "/Portfolio-react/static/media/food website.94a7c3af7f22224c96be.jpg",
-    "static/media/frontend ecommerce.jpg": "/Portfolio-react/static/media/frontend ecommerce.aa0808b478cd6d16c126.jpg",
     "static/media/mern.jpg": "/Portfolio-react/static/media/mern.6a846b62232c1c73845f.jpg",
+    "static/media/Chat app.jpg": "/Portfolio-react/static/media/Chat app.3f3c77cc2fbb6b8cfc68.jpg",
     "static/media/portfolio.jpg": "/Portfolio-react/static/media/portfolio.ac1a38cb1b094433faae.jpg",
     "static/media/note app.jpg": "/Portfolio-react/static/media/note app.b619bd212c6da198f4c5.jpg",
     "index.html": "/Portfolio-react/index.html",
-    "main.c2b90764.js.map": "/Portfolio-react/static/js/main.c2b90764.js.map"
+    "main.1d147731.js.map": "/Portfolio-react/static/js/main.1d147731.js.map"
   },
   "entrypoints": [
-    "static/js/main.c2b90764.js"
+    "static/js/main.1d147731.js"
   ]
 }
