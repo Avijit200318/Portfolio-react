@@ -5,9 +5,15 @@ import picture3 from "./picture/pinterst.jpg";
 import picture4 from "./picture/portfolio.jpg";
 import picture5 from "./picture/food website.jpg";
 import picture6 from "./picture/note app.jpg";
-import picture7 from "./picture/frontend ecommerce.jpg";
+import picture7 from "./picture/Chat app.jpg";
 
 const projectDetails = [
+    {
+        img: picture7,
+        heading: "ChatPlus Website",
+        info: "Developed a chat website similar to whatsapp using MERN stack technology and Socket-io.",
+        link: "https://mern-chatplus.onrender.com/",
+    },
     {
         img: picture,
         heading: "Ecommerce-website",
@@ -49,12 +55,6 @@ const projectDetails = [
         heading: "Note App",
         info: "Devloped a Note app like google notes using React Js, Html and Css.",
         link: "https://avijit200318.github.io/Note-App/",
-    },
-    {
-        img: picture7,
-        heading: "E-Commerce Website",
-        info: "Developed a E-Commerce website using Html , Css, JavaScript.",
-        link: "https://avijit200318.github.io/E-Commerce-Website/",
     },
 ]
 
